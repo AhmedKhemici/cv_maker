@@ -1,0 +1,20 @@
+.Skills{
+    margin-left: 30px;
+    text-align: left;
+}
+
+.element__Skills>img{
+    margin-top: 4px;
+    margin-right: 5px;
+    height: 15px;
+}
+
+.Skills>ul{
+    margin-top: 5px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.element__Skills{
+    display: flex;
+}
