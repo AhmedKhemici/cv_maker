@@ -3,6 +3,23 @@
     text-align: left;
 }
 
+.title__container{
+    display: flex;
+}
+
+.title__container>h1{
+    width: 3.5cm;
+}
+
+.profile__photo{
+    border: 0.5px solid;
+    border-radius: 100%;
+    width: 1.8cm;
+    height: 1.8cm;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
 h1{
     font-family: Arial;
     margin-bottom: 0px;

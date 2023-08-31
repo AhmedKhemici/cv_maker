@@ -1,0 +1,22 @@
+.Experience{ 
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+img{
+    height: 15px;
+}
+
+.Experience>h1{
+    margin-top: 30px;
+}
+
+.experience__element{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.experience__element>ul{
+    padding-left: 30px;
+    margin-top: 0px;
+}

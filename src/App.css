@@ -40,8 +40,8 @@
 .container {
   display: flex;
   max-width: 21cm;
-  min-height: 29.7cm;
-  border: 1px solid; 
+  min-height: 29.6cm;
+  border: 0.5px solid; 
 }
 
 .side__bar {
