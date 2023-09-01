@@ -1,5 +1,6 @@
 .Extras{
-    border-right: 0.5px solid;
-    border-top: 0.25px solid;
-    height: 22.46cm ;
+    border-right: rgba(144, 212, 209, 0.849) 0.5px solid;
+    border-top: rgba(144, 212, 209, 0.849) 0.25px solid;
+    height: 23.1cm ;
+    background-color: rgba(144, 212, 209, 0.849);
 }

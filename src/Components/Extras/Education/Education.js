@@ -1,7 +1,6 @@
 import './Education.css';
 
 function Education( props) {
-  console.log(props.educations)
   return (
     <div className='Education'>
       <h1>Education</h1>

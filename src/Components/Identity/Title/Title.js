@@ -5,7 +5,9 @@ function Title(props) {
     <div className='Title'>
       <div className='title__container'>
         <h1>{props.identity.full_name}</h1>
-        <div className='profile__photo'></div>
+        <div className='profile__photo'>
+          <img src={`${process.env.PUBLIC_URL}/img/${props.identity.profile_picture}.jpg`}/>
+        </div>
       </div>
       <div>
       <h2>{props.identity.job_title}</h2>

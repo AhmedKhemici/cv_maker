@@ -1,0 +1,18 @@
+.Languages{
+    margin-left: 30px;
+    text-align: left;
+}
+
+.element__languages{
+    display: flex;
+}
+
+.element__languages>.language{
+    width: 80px;
+}
+
+.Languages>ul{
+    margin-top: 5px;
+    padding-left: 0px;
+    list-style-type: none;
+}
