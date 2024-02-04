@@ -9,9 +9,12 @@ function App() {
       "profile_picture":"ahmedKhemici",
       "full_name":"Ahmed Khemici",
       "job_title":"Backend Developer",
-      "social_media":[
+    },
+    "extras":{
+      "socialMedia":[
         {
           "media":"ahmed.khemici1@gmail.com",
+          "url":"mailto:ahmed.khemici1@gmail.com",
           "icon":"mail"
         },
         {
@@ -20,27 +23,18 @@ function App() {
         },
         {
           "media":"+213665824855",
+          "url":"https://wa.me/+213665824855",
           "icon":"whatsapp"
         },
         {
           "media":"Algeria, Blida, Mouzaia",
-          "url":"https://goo.gl/maps/Zsj44XJLqXNgD8PYA",
+          "url":"https://maps.app.goo.gl/hoZUaA8B31x6yqeN7",
           "icon":"pin"
         },
         {
           "media":"linkedin",
           "url":"https://linkedin.com/in/ahmed-khemici-4523aa156",
           "icon":"linkedin"
-        }
-      ]
-    },
-    "extras":{
-      "educations":[
-        {
-          "degree":"Master",
-          "domain":"Computer Science",
-          "date":"September 2018- june 2019",
-          "location":"Algeria, Blida"
         }
       ],
       "skills":[
@@ -71,58 +65,47 @@ function App() {
       ],
       "languages":[ 
         {
-          "language":"Arab",
-          "mastering":"Native Speaker"
+            "language":"Arabe",
+            "mastering":"Langue maternelle"
         },
         {
-          "language":"France",
-          "mastering":"Medium",
+            "language":"Français",
+            "mastering":"Intermédiaire"
         },
         {
-          "language":"English",
-          "mastering":"Fluent"
+            "language":"Anglais",
+            "mastering":"Courant"
         }
       ],
     },
-    "profile":{
-      "description":"Experienced mid-level Backend Developer and DevOps enthusiast with three years of dedicated service at a dynamic startup. Proficient in Python and adaptable to various technologies and languages, including Node.js, React.js, AWS, Azure, and Ansible. Adept at driving innovation through successful DevOps practices, including implementing rolling updates that significantly boosted productivity. Proven track record of contributing to the development process and stepping in for Quality Assurance responsibilities when required. A collaborative team player known for problem-solving and a willingness to learn.",
-      "experiences":[
-        {
-          "company_name":" Free Lance .",
-          "location":" Algeria .",
-          "job_title":" Software Engineer .",
-          "date":" july 2019 - October 2019 ",
-          "worked_on":[
-            "Created a Management application for restaurants using java swing",
-            "Created a small advertising website for a client using pure php and html css",
-            "Worked on a project using c++ that involved drawing 2D motifs using a laser"
-          ]
-        },
-        {
-          "company_name":" Oppo .",
-          "location":" Algeria, Chrega .",
-          "job_title":" QA Tester .",
-          "date":" October 2019 - August 2020",
-          "worked_on":[
-            "Manual Testing On Recently Manufactured Oppo Phones",
-            "Created a VBS app on excel to help boost the team's reporting skills",
-            "Worked on Automatic QA doing backend api calls to test the routes functionality ,and also used selenium and appium to simulate user input on web and android/ios app"
-          ]
-        },
-        {
-          "company_name":" Yobi .",
-          "location":" San Jose, California .",
-          "job_title":" Backend Engineer .",
-          "date":" August 2020",
-          "worked_on":[
-            "Worked With Fast Moving Startup and a huge team with different cultures",
-            "Worked on Backend with python flask , started the project from scratch, implemented api call to third party services, facebook , twitter, twilio and the list goes on",
-            "Worked on Devops using Docker and gitlab ci-cd with ansible , hosting the project on aws and azure ",
-            "Worked on Automatic QA doing backend api calls to test the routes functionality ,and also used selenium and appium to simulate user input on web and android/ios app"
-          ]
-        }
-      ]
-    },
+      "profile":{
+        "description":"Développeur Backend expérimenté de niveau intermédiaire et passionné de DevOps avec trois années de service dédié à une start-up dynamique. Maîtrise du langage Python et capacité à s'adapter à diverses technologies et langages, dont Node.js, React.js, AWS, Azure et Ansible. Habile à promouvoir l'innovation grâce à des pratiques DevOps réussies, y compris la mise en œuvre de mises à jour progressives qui ont considérablement amélioré la productivité. Un parcours éprouvé de contribution au processus de développement et d'intervention dans les responsabilités d'assurance qualité lorsque nécessaire. Joueur d'équipe collaboratif reconnu pour la résolution de problèmes et une volonté d'apprendre.",
+        "experiences":[
+            {
+                "company_name":"Oppo .",
+                "location":"Algérie, Chrega .",
+                "job_title":"Testeur QA .",
+                "date":"octobre 2019 - août 2020",
+                "worked_on":[
+                    "Tests manuels sur les téléphones Oppo récemment fabriqués",
+                    "Création d'une application VBS sur Excel pour aider à renforcer les compétences de reporting de l'équipe",
+                    "Travail sur QA automatique effectuant des appels d'API backend pour tester la fonctionnalité des routes, utilisant également Selenium et Appium pour simuler les saisies utilisateur sur le Web et les applications Android/iOS"
+                ]
+            },
+            {
+                "company_name":"Yobi .",
+                "location":"San Jose, Californie .",
+                "job_title":"Ingénieur Backend .",
+                "date":"août 2020",
+                "worked_on":[
+                    "Travaillé avec une start-up en pleine croissance et une grande équipe aux cultures différentes",
+                    "Travail sur le Backend avec Python Flask, démarré le projet à partir de zéro, implémenté des appels d'API vers des services tiers, tels que Facebook, Twitter, Twilio, et bien d'autres",
+                    "Travail sur DevOps en utilisant Docker et GitLab CI/CD avec Ansible, hébergement du projet sur AWS et Azure",
+                    "Travail sur QA automatique effectuant des appels d'API backend pour tester la fonctionnalité des routes, utilisant également Selenium et Appium pour simuler les saisies utilisateur sur le Web et les applications Android/iOS"
+                ]
+            }
+        ]
+      }
   };
   return (
     <div className='App container'>

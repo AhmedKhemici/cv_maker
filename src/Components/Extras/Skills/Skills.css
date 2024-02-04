@@ -1,5 +1,4 @@
 .Skills{
-    margin-left: 30px;
     text-align: left;
 }
 
@@ -10,6 +9,7 @@
 }
 
 .Skills>ul{
+    margin-left: 10px;
     margin-top: 5px;
     padding-left: 0px;
     list-style-type: none;
@@ -17,4 +17,10 @@
 
 .element__Skills{
     display: flex;
+}
+
+.Skills>h1{
+    border-radius: 0 5% 0 5%;
+    background-color: #13191fce;
+    text-align: center;
 }

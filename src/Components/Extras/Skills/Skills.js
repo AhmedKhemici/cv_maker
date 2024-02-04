@@ -3,7 +3,7 @@ import './Skills.css';
 function Skills( props) {
   return (
     <div className='Skills'>
-      <h1>Skills</h1>
+      <h1>Compétences</h1>
       <ul>
         {props.skills.map((skill)=>{
           let icon = `${process.env.PUBLIC_URL}/img/${skill.icon}.png`

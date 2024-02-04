@@ -3,7 +3,7 @@ import './Languages.css';
 function Languages( props) {
   return (
     <div className='Languages'>
-      <h1>Languages</h1>
+      <h1>Langues</h1>
       <ul>
         {props.languages.map((language)=>{
           return (
