@@ -1,12 +1,11 @@
-import './Description.css';
+import './Description.css'
 
-function Description( props) {
+const Description = () => {
   return (
-    <div className='Description'>
-        <h1>Description</h1>
-        <p>{props.description}</p>
+    <div className="Description">
+      Description
     </div>
-  );
+  )
 }
 
-export default Description;
+export default Description
