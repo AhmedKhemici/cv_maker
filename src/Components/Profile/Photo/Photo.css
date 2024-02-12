@@ -1,0 +1,11 @@
+.Photo {
+    width: 5.45cm;
+    height: 5cm;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.Photo>img {
+    height: 100%;
+    border-radius: 100%;
+}

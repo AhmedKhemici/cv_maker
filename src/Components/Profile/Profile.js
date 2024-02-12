@@ -1,16 +1,16 @@
-import ProfilePhoto from './ProfilePhoto/ProfilePhoto.js'
+import Photo from './Photo/Photo.js'
 import Description from './Description/Description.js'
 import './Profile.css'
 
 const Profile = (props) => {
-  const fullName = props.first_name+" "+props.last_name
+  const fullName = props.profile.first_name+" "+props.profile.last_name
   return (
     <div className='Profile'>
-      <ProfilePhoto profile_photo={props.profile_photo}/>
+      <Photo profile_photo={props.profile.profile_photo}/>
       <Description 
         name={fullName}
-        profession={props.profession}
-        description={props.description}
+        profession={props.profile.profession}
+        description={props.profile.description}
       />
     </div>
   )
