@@ -3,7 +3,9 @@ import './ProfilePhoto.css'
 const ProfilePhoto = (props) => {
   return (
     <div className='ProfilePhoto'>
-      ProfilePhoto
+      <div className='ProfilePhoto__image'>
+        ProfilePhoto
+      </div>
     </div>
   )
 }

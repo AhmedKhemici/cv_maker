@@ -1,3 +1,9 @@
-.ProfilePhoto{
-    
+.ProfilePhoto {
+    width: 5.45cm;
+    height: 5.45cm;
+    background-color: rgb(28, 122, 230);
+}
+
+.ProfilePhoto__image {
+
 }

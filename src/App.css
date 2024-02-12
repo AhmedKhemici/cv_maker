@@ -38,8 +38,12 @@
 }
 
 .container {
-  display: flex;
-  max-width: 21cm;
-  min-height: 29.6cm;
+  width: 21cm;
+  height: 29.6cm;
   border: 0.5px solid; 
+  
+}
+
+.content {
+  display: flex;
 }
