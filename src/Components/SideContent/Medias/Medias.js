@@ -14,20 +14,28 @@ function Medias(props) {
   const template = <>
     {props.medias.map((media)=>{
       return <div className='media__content'>
-        <div className='media__type'>
-          <FontAwesomeIcon
-            icon={fontA[media.type]}
-          />
-        </div>
         {media.url ?
-          <a href={media.url} className='media__value'>
-            {media.value}
+          <a href={media.url}>
+            <div className='media__type'>
+              <FontAwesomeIcon
+                icon={fontA[media.type]}
+              />
+            </div>
+              <div className='media__value'>
+                {media.value}
+              </div>
           </a> :
-          <div className='media__value'>
-            {media.value}
-          </div>
+          <>
+            <div className='media__type'>
+              <FontAwesomeIcon
+                icon={fontA[media.type]}
+              />
+            </div>
+              <div className='media__value'>
+                {media.value}
+              </div>
+          </>
         }
-        
       </div>
     })}
   </>
