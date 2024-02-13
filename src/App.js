@@ -16,17 +16,43 @@ const App = () => {
       `
     },
     "side_content":{
+      "medias":[
+        {
+          "type":"email",
+          "value":"ahmed.khemici@gmail.com",
+          "url":""
+        },
+        {
+          "type":"phone",
+          "value":"+213665824855",
+        },
+        {
+          "type":"whatsapp",
+          "value":"+213665824855",
+          "url":""
+        },
+        {
+          "type":"location",
+          "value":"Algeria",
+          "url":"https://maps.app.goo.gl/UtR5SaZmm1oansTp8"
+        },
+        {
+          "type":"linkedin",
+          "value":"linkedin.com/in/ahmed-khemici-4523aa156",
+          "url":"https://www.linkedin.com/in/ahmed-khemici-4523aa156"
+        }
+      ]
     },
     "main_content":{
     }
   }
   return (
     <div className='App container'>
-      <div className='profile'>
+      <div>
         <Profile profile={cv.profile}/>
       </div>
       <div className='content'>
-        <SideContent/>
+        <SideContent side_content={cv.side_content}/>
         <MainContent/>
       </div>
     </div>

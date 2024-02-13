@@ -6,7 +6,7 @@ import './SideContent.css'
 const SideContent = (props) => {
   return (
     <div className='SideContent'>
-        <Medias medias={props.media}/>
+        <Medias medias={props.side_content.medias}/>
         <Skills skills={props.skills}/>
         <Languages languages={props.languages}/>
     </div>
