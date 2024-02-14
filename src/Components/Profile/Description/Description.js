@@ -4,16 +4,16 @@ const Description = (props) => {
   return (
     <div className="Description">
       <div className="description__content">
-        <div className="description__fullname">
+        <span className="description__fullname">
           {props.name}
-        </div>
-        <div className="description__profession">
+        </span>
+        <span className="description__profession">
           {props.profession}
-        </div>
+        </span>
         <hr/>
-        <div className="description__text">
+        <span className="description__text">
           {props.description}
-        </div>
+        </span>
       </div>
     </div>
   )

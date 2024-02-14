@@ -1,3 +1,33 @@
 .Languages{
-    
+    width: 160px;
+    margin: 10px auto;
+}
+
+.languages__title{
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.Languages>hr{
+    margin-top: 0;
+    height: 2px;
+    background-color: black;
+    border: 0px;
+}
+
+.languages__content{
+    text-align: left;
+    margin: 10px 0;
+}
+
+.languages__name{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.languages__level{
+    font-size: 12px;
+    font-style: italic;
 }

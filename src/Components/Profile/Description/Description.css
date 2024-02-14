@@ -1,11 +1,11 @@
-.Description {
+.Description{
     width: 15.55cm;
     height: 5cm;
     padding-top: 35px;
     box-sizing: border-box;
 }
 
-.description__content {
+.description__content{
     width: 100%;
     height: 100%;
     color: white;
@@ -15,23 +15,29 @@
     box-sizing: border-box;
 }
 
-.description__fullname {
+.description__fullname{
     font-size: 33px;
     font-weight: 400;
+    display: block;
 }
 
-.description__profession {
+.description__profession{
     font-size: 18px;
     font-weight: 450;
+    display: block;
 }
 
-.description__text {
-    margin: 10px 0;
+.description__text{
+    margin: 8px 0;
     font-size: 12px;
     font-weight: 400;
+    display: block;
 }
 
 .description__content>hr{
-    margin: 1px 5px 0 0;
+    margin: 5px 0 0 0;
     width: 200px;
+    height: 2px;
+    background-color: white;
+    border: 0px;
 }

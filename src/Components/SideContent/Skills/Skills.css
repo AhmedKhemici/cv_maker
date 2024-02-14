@@ -1,3 +1,38 @@
 .Skills{
+    width: 160px;
+    margin: 10px auto;
+}
+
+.skills__title{
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.Skills>hr{
+    margin-top: 0;
+    height: 2px;
+    background-color: black;
+    border: 0px;
+}
+
+.skills__content{
+    width: 155px;
+    text-align: left;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin: 5px auto 15px auto;
+}
+
+.skills__name{
+    
+}
+
+.skills__tools{
     
 }

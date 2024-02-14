@@ -41,7 +41,44 @@ const App = () => {
           "value":"linkedin.com/in/ahmed-khemici-4523aa156",
           "url":"https://www.linkedin.com/in/ahmed-khemici-4523aa156"
         }
+      ],
+      "skills":[
+        {
+          "name":"Programming language :",
+          "tools":"java , C++, Python, R , VBA Microsoft."
+        },
+        {
+          "name":"Computer networking :",
+          "tools":"LAN Network, WAN Network."
+        },
+        {
+          "name":"DataBase :",
+          "tools":"MySQL , phpMyAdmin , SQL Server ,Apache derby , Firebase."
+        },
+        {
+          "name":"Microsoft Office :",
+          "tools":"PowerPoint, Word, Excel."
+        },
+        {
+          "name":"Web :",
+          "tools":"Html, Php, Css."
+        }      
+      ],
+      "languages":[
+        {
+          "name":"Arabic",
+          "level":"Native or Bilingual Proficiency",
+        },
+        {
+          "name":"English",
+          "level":"Professional Working Proficiency",
+        },
+        {
+          "name":"French",
+          "level":"Full Professional Proficiency",
+        }
       ]
+
     },
     "main_content":{
     }

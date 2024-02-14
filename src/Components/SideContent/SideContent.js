@@ -7,8 +7,8 @@ const SideContent = (props) => {
   return (
     <div className='SideContent'>
         <Medias medias={props.side_content.medias}/>
-        <Skills skills={props.skills}/>
-        <Languages languages={props.languages}/>
+        <Skills skills={props.side_content.skills}/>
+        <Languages languages={props.side_content.languages}/>
     </div>
   )
 }
