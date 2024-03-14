@@ -1,3 +1,59 @@
 .Experiences{
-    
+    margin: 10px 15px 10px 0;
+}
+
+.Experiences>hr{
+    margin-top: 0;
+    margin-bottom: 2px;
+    height: 2px;
+    background-color: black;
+    border: 0px;
+}
+
+.experiences__title{
+    margin-left: 20px;
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.experiences__experience{
+    margin-left: 20px;
+    text-align: left;
+}
+.experiences__experienceJobTitle{
+    font-size: 20px;
+    font-weight: bold
+}
+.experiences__experienceCompany{
+    display: flex;
+}
+
+.experiences__experienceCompanyName{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.experiences__experienceCompany>a{
+    align-items: center;
+    font-size: 13px;
+}
+
+.experiences__experienceDateCountry{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+.experiences__experiencePoints{
+    margin-bottom: 15px;
+    width: 520px;
+}
+
+.experiences__experiencePoints>ul{
+    margin: 0;
+    list-style: square ;
 }
