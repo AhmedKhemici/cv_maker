@@ -51,13 +51,14 @@
 .experiences__experiencePoints{
     margin-bottom: 15px;
     width: 520px;
+    
 }
 
 .experiences__experiencePoints>ul{
     margin: 0;
-    list-style: square ;
+    list-style: square;
 }
 
-.experiences__experiencePoints>ul>li{
-    
+.experiences__experiencePoints>ul>li>span{
+    width: 520px;
 }

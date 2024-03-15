@@ -1,6 +1,7 @@
 import './Experiences.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
+import { text } from '@fortawesome/fontawesome-svg-core'
 
 const Experiences = (props) => {
   const experiences = [1,2].map(experience => {
@@ -31,7 +32,7 @@ const Experiences = (props) => {
         <ul>
         {[1,2].map(points => {
           return <li>
-              XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+              {``}
           </li>
         })}
         </ul>
