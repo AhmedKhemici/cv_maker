@@ -1,5 +1,5 @@
 .Photo {
-    width: 5.45cm;
+    min-width: 5.45cm;
     height: 5cm;
     padding-top: 50px;
     box-sizing: border-box;

@@ -38,10 +38,10 @@
 }
 
 .container {
-  max-width: 21cm;
-  max-height: 29.6cm;
-  border: 0.5px solid; 
-  
+  width: 21cm;
+  height: 29.6cm;
+  border: 0.5px solid;
+  overflow: hidden; 
 }
 
 .content {

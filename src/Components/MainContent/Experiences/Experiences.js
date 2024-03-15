@@ -31,7 +31,7 @@ const Experiences = (props) => {
         <ul>
         {[1,2].map(points => {
           return <li>
-              XD
+              XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
           </li>
         })}
         </ul>
