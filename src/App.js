@@ -81,6 +81,35 @@ const App = () => {
 
     },
     "main_content":{
+      "experiences":[
+        {
+          "job_title":"Backend Engineer",
+          "company_name":"Yobi",
+          "date":"08/2020 - 04/2023",
+          "location":"Remote/California",
+          "points":[
+            "Implemented Calls using twilio",
+            "create microservices .."
+          ]
+        },
+      ],
+      "certificates":[
+        {
+          "name":"Certified Web Development",
+          "date":"04/2018 – 05/2018"
+        }
+      ],
+      "personal_projects":[
+        {
+          "name":"Easy Document Classifire",
+          "points":[
+            "Document Classification Using Supervised Classification Knn (K Nearest Neighbor)"
+          ]
+        }
+      ],
+      "educations":[
+        {}
+      ]
     }
   }
   return (
@@ -90,7 +119,7 @@ const App = () => {
       </div>
       <div className='content'>
         <SideContent side_content={cv.side_content}/>
-        <MainContent/>
+        <MainContent main_content={cv.main_content}/>
       </div>
     </div>
     

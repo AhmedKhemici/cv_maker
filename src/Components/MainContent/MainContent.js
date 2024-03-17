@@ -7,10 +7,10 @@ import './MainContent.css'
 const MainContent = (props) => {
   return (
     <div className='MainContent'> 
-        <Experiences experiences={props.experiences}/>
-        <Certificates certificates={props.certificates}/>
-        <PersonalProjects personal_projects={props.personal_projects}/>
-        <Educations educations={props.educations}/>
+        <Experiences experiences={props.main_content.experiences}/>
+        <Certificates certificates={props.main_content.certificates}/>
+        <PersonalProjects personal_projects={props.main_content.personal_projects}/>
+        <Educations educations={props.main_content.educations}/>
     </div>
   )
 }
