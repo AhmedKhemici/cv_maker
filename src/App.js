@@ -88,7 +88,7 @@ const App = () => {
           "date":"08/2020 - 04/2023",
           "location":"Remote/California",
           "points":[
-            "Implemented Calls using twilio",
+            "Document Classification Using Supervised Classification Knn (K Nearest Neighbor)",
             "create microservices .."
           ]
         },

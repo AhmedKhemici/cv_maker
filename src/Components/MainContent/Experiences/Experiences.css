@@ -22,10 +22,12 @@
     margin-left: 20px;
     text-align: left;
 }
+
 .experiences__experienceJobTitle{
     font-size: 20px;
     font-weight: bold
 }
+
 .experiences__experienceCompany{
     display: flex;
 }
@@ -48,10 +50,9 @@
     font-style: italic;
     font-weight: 500;
 }
+
 .experiences__experiencePoints{
     margin-bottom: 15px;
-    width: 520px;
-    
 }
 
 .experiences__experiencePoints>ul{
@@ -59,6 +60,6 @@
     list-style: square;
 }
 
-.experiences__experiencePoints>ul>li>span{
+.experiences__experiencePoints>ul>li>{
     width: 520px;
 }

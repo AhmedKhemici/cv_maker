@@ -1,9 +1,28 @@
 import './PersonalProjects.css'
 
-const PersonalProjects = () => {
+const PersonalProjects = (props) => {
+  const personalProjects = props.personal_projects.map(personal_project => {
+    return (<div className="personalProjects__project">
+      <div className="personalProjects__projectName">
+        {personal_project.name}
+      </div>
+      <div className="personalProjects__projectPoints">
+      <ul>
+        {personal_project.points.map(point => {
+          return <li>
+            {point}
+          </li>
+        })}
+      </ul>
+      </div>
+    </div>
+    )
+  })
   return (
     <div className='PersonalProjects'>
-      PersonalProjects
+      <div className="personalProjects__title">PERSONAL PROJECTS</div>
+      <hr/>
+      {personalProjects}
     </div>
   )
 }

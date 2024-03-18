@@ -1,3 +1,35 @@
 .PersonalProjects{
-    
+    margin: 10px 15px 10px 0;
+}
+
+.PersonalProjects>hr{
+    margin-top: 0;
+    margin-bottom: 2px;
+    height: 2px;
+    background-color: black;
+    border: 0px;
+}
+
+.personalProjects__project{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.personalProjects__title{
+    margin-left: 20px;
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.personalProjects__projectName{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.personalProjects__projectPoints>ul{
+    margin: 0;
+    list-style: square;
 }
