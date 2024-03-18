@@ -1,3 +1,19 @@
 .Educations{
-    
+    margin: 10px 15px 10px 0;
+}
+
+.Educations>hr{
+    margin-top: 0;
+    margin-bottom: 2px;
+    height: 2px;
+    background-color: black;
+    border: 0px;
+}
+
+.educations__title{
+    margin-left: 20px;
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    font-weight: bold
 }

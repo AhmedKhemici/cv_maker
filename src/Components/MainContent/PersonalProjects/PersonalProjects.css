@@ -30,6 +30,7 @@
 }
 
 .personalProjects__projectPoints>ul{
-    margin: 0;
+    padding: 0;
+    margin: 0 0 0 20px;
     list-style: square;
 }

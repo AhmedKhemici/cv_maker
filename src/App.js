@@ -78,7 +78,6 @@ const App = () => {
           "level":"Full Professional Proficiency",
         }
       ]
-
     },
     "main_content":{
       "experiences":[
@@ -92,8 +91,22 @@ const App = () => {
             "create microservices .."
           ]
         },
+        {
+          "job_title":"Backend Engineer",
+          "company_name":"Yobi",
+          "date":"08/2020 - 04/2023",
+          "location":"Remote/California",
+          "points":[
+            "Document Classification Using Supervised Classification Knn (K Nearest Neighbor)",
+            "create microservices .."
+          ]
+        }
       ],
       "certificates":[
+        {
+          "name":"Certified Web Development",
+          "date":"04/2018 – 05/2018"
+        },
         {
           "name":"Certified Web Development",
           "date":"04/2018 – 05/2018"
@@ -101,7 +114,13 @@ const App = () => {
       ],
       "personal_projects":[
         {
-          "name":"Easy Document Classifire",
+          "name":"Easy Document Classifier",
+          "points":[
+            "Document Classification Using Supervised Classification Knn (K Nearest Neighbor)"
+          ]
+        },
+        {
+          "name":"Easy Document Classifier",
           "points":[
             "Document Classification Using Supervised Classification Knn (K Nearest Neighbor)"
           ]

@@ -1,4 +1,4 @@
-import './PersonalProjects.css'
+import "./PersonalProjects.css"
 
 const PersonalProjects = (props) => {
   const personalProjects = props.personal_projects.map(personal_project => {
@@ -19,7 +19,7 @@ const PersonalProjects = (props) => {
     )
   })
   return (
-    <div className='PersonalProjects'>
+    <div className="PersonalProjects">
       <div className="personalProjects__title">PERSONAL PROJECTS</div>
       <hr/>
       {personalProjects}
