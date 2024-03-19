@@ -37,7 +37,7 @@ const Experiences = (props) => {
   })
   return (
     <div className="Experiences">
-      <div className="experiences__title">WORK EXPERIENCE</div>
+      <div className="experiences__title">{props.title}</div>
       <hr/>
       {experiences}
     </div>

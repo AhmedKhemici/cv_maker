@@ -7,8 +7,8 @@ const SideContent = (props) => {
   return (
     <div className='SideContent'>
         {props.side_content.medias.length !== 0 && <Medias medias={props.side_content.medias}/>}
-        {props.side_content.skills.length !== 0 && <Skills skills={props.side_content.skills}/>}
-        {props.side_content.languages.length !== 0 && <Languages languages={props.side_content.languages}/>}
+        {props.side_content.skills.length !== 0 && <Skills skills={props.side_content.skills} title={props.language.skills}/>}
+        {props.side_content.languages.length !== 0 && <Languages languages={props.side_content.languages} title={props.language.languages}/>}
     </div>
   )
 }

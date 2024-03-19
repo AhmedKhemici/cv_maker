@@ -20,7 +20,7 @@ const PersonalProjects = (props) => {
   })
   return (
     <div className="PersonalProjects">
-      <div className="personalProjects__title">PERSONAL PROJECTS</div>
+      <div className="personalProjects__title">{props.title}</div>
       <hr/>
       {personalProjects}
     </div>

@@ -9,7 +9,7 @@ const Certificates = (props) => {
   })
   return (
     <div className='Certificates'>
-      <div className="certificates__title">CERTIFICATES</div>
+      <div className="certificates__title">{props.title}</div>
       <hr/>
       {certificates}
     </div>

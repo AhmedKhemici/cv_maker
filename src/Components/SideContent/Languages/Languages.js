@@ -15,7 +15,7 @@ const Languages = (props) => {
   </div>
   return (
     <div className='Languages'>
-      <span className='languages__title'>LANGUAGES</span>
+      <span className='languages__title'>{props.title}</span>
       <hr/>
       {languages}
     </div>

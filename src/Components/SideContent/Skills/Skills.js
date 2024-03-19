@@ -15,7 +15,7 @@ function Skills(props) {
   </div>
   return (
     <div className='Skills'>
-      <span className='skills__title'>SKILLS</span>
+      <span className='skills__title'>{props.title}</span>
       <hr/>
       {skills}
     </div>

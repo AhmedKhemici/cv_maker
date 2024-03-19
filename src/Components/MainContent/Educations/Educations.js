@@ -43,7 +43,7 @@ const Educations = (props) => {
   })
   return (
     <div className="Educations">
-      <div className="educations__title">EDUCATIONS</div>
+      <div className="educations__title">{props.title}</div>
       <hr/>
       {educations}
     </div>
