@@ -12,7 +12,7 @@ const Experiences = (props) => {
         <div className="experiences__experienceCompanyName">
           {experience.company_name}
         </div>
-        <a href="https://www.google.com/maps/place/YAssir/@36.7333654,3.030695,15z/data=!4m5!3m4!1s0x0:0x1f49bf588abdd99!8m2!3d36.7333654!4d3.030695?hl=fr">
+        <a href={experience.company_url}>
           <FontAwesomeIcon icon={faUpRightFromSquare} />
         </a>
       </div>
