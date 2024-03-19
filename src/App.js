@@ -7,6 +7,7 @@ import { useTitle } from './CustomHooks/useTitle';
 import './App.css';
 
 const App = () => {
+  //263
   const title = data.profile.first_name+" "+data.profile.last_name+" cv";
   const language = settings.language[data.language] !== undefined ? settings.language[data.language] : settings.language["eng"];
   useTitle(title);
