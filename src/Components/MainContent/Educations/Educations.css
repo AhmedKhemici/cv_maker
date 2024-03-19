@@ -14,6 +14,54 @@
     margin-left: 20px;
     text-align: left;
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold
+}
+
+.educations__education{
+    margin-left: 20px;
+    text-align: left;
+}
+.educations__educationDegree{
+    font-size: 16px;
+    font-weight: bold
+}
+.educations__educationCollege{
+    display: flex;
+}
+
+.educations__educationCollegeName{
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.educations__educationCollege>a{
+    align-items: center;
+    font-size: 13px;
+}
+
+.educations__educationDateGrade{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.educations__educationProjects{
+    margin-bottom: 15px;
+}
+
+.educations__educationProjects>span{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.educations__educationProjects>ul{
+    padding: 0;
+    margin: 0 0 0 20px;
+    list-style: square;
+    font-size: 14px;
 }

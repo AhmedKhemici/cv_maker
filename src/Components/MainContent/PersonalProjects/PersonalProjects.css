@@ -19,18 +19,23 @@
     margin-left: 20px;
     text-align: left;
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold
 }
 
 .personalProjects__projectName{
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
+}
+
+.personalProjects__projectPoints{
+    margin-bottom: 15px;
 }
 
 .personalProjects__projectPoints>ul{
     padding: 0;
     margin: 0 0 0 20px;
     list-style: square;
+    font-size: 14px;
 }
