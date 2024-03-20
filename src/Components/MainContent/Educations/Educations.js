@@ -12,9 +12,9 @@ const Educations = (props) => {
         <div className="educations__educationCollegeName">
           {education.college_name}
         </div>
-        <a href={education.college_url}>
+        {education.college_url !== undefined && <a href={education.college_url}>
           <FontAwesomeIcon icon={faUpRightFromSquare} />
-        </a>
+        </a>}
       </div>
       <div className="educations__educationDateGrade">
         <div className="educations__educationDate">

@@ -1,12 +1,13 @@
 .Photo {
-    min-width: 5.45cm;
+    min-width: 5.8cm;
     height: 5cm;
-    padding-top: 13px;
+    padding-top: 30px;
     box-sizing: border-box;
 }
 
 .Photo>img {
     border: 2px solid;
-    height: 100%;
+    height: 4cm;
+    background-color: black;
     border-radius: 100%;
 }

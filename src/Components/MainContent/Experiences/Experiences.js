@@ -12,9 +12,9 @@ const Experiences = (props) => {
         <div className="experiences__experienceCompanyName">
           {experience.company_name}
         </div>
-        <a href={experience.company_url}>
+        {experience.company_url !== undefined && <a href={experience.company_url}>
           <FontAwesomeIcon icon={faUpRightFromSquare} />
-        </a>
+        </a>}
       </div>
       <div className="experiences__experienceDateCountry">
         <div className="experiences__experienceDate">

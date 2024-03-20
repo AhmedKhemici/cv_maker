@@ -1,4 +1,4 @@
-{
+export const settings = {
     "language":{
         "eng":{
             "skills":"SKILLS",

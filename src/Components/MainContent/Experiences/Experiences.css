@@ -1,5 +1,9 @@
 .Experiences{
-    margin: 10px 15px 30px 0;
+    margin: 10px 15px 30px 15px;
+}
+
+.experiences__experience:nth-child(0){
+    margin-bottom: 100rem;
 }
 
 .Experiences>hr{

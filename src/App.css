@@ -39,9 +39,10 @@
 
 .container {
   width: 21cm;
-  height: 29.7cm;
-  border: 0.5px solid;
-  overflow: hidden; 
+  min-height: 29.7cm;
+  overflow: hidden;
+  border-right: 1px solid;
+  border-top: 0.5px solid;
 }
 
 .content {
