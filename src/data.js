@@ -5,7 +5,13 @@ export const data = {
         "first_name": "Ahmed",
         "last_name": "Khemici",
         "profession": "Software Engineer",
-        "description":``
+        "description":`Experienced Backend Developer and passionate DevOps enthusiast with five years of dedicated service to a dynamic startup. Proficient in Python with the ability to adapt to 
+        various technologies and languages, including Node.js, React.js, AWS, Azure, and Ansible. 
+        Skilled at fostering innovation through successful DevOps practices, including 
+        implementing progressive updates that have significantly enhanced productivity. 
+        Demonstrated track record of contributing to the development process and stepping into 
+        quality assurance responsibilities when needed. Recognized collaborative team player 
+        known for problem-solving and a willingness to learn.`
     },
     "pages":[{
         "side_content": {
@@ -80,39 +86,58 @@ export const data = {
         "main_content": {
             "experiences": [
                 {
-                    "job_title": "",
-                    "company_name": "",
-                    "company_url": "",
-                    "date": "",
-                    "location": "FreeLance",
+                    "job_title": "Backend Engineer",
+                    "company_name": "Yobi",
+                    "location": "San Jose, California",
+                    "date": "08/2020 - 04/2023",
                     "points": [
-                       
+                      "Worked with a rapidly growing startup and a large team with diverse cultures",
+                      "Worked on Backend using Python Flask, started the project from scratch, implemented API calls to third-party services such as Facebook, Twitter, Twilio, and many others",
+                      "Worked on DevOps using Docker and GitLab CI/CD with Ansible, hosting the project on AWS and Azure",
+                      "Worked on automated QA conducting backend API calls to test route functionality, also utilizing Selenium and Appium to simulate user inputs on web and Android/iOS applications"
                     ]
-                }
+                },
+                {
+                    "job_title": "QA Tester",
+                    "company_name": "Oppo",
+                    "location": "Chréa, Algeria",
+                    "date": "10/2019 - 08/2020",
+                    "points": [
+                      "Manual testing on newly manufactured Oppo phones",
+                      "Created a VBS application in Excel to help strengthen team reporting skills",
+                      "Worked on automated QA conducting backend API calls to test route functionality, also utilizing Selenium and Appium to simulate user inputs on web and Android/iOS applications"
+                      ]
+                  }
             ],
             "certificates": [
                 {
-                    "name": "",
-                    "date": ""
+                    "name": "Certified Web Development",
+                    "date": "04/2018 – 05/2018"
+                },
+                {
+                    "name": "Certified Web Development",
+                    "date": "04/2018 – 05/2018"
                 }
             ],
             "personal_projects": [
                 {
-                    "name": "",
+                    "name": "Restaurants Desktop application",
                     "points": [
-
+                        "an easy application that helps restaurant owners manage their business made with java"
                     ]
                 },
             ],
             "educations": [
                 {
-                    "degree": "",
-                    "college_name": "",
-                    "college_url": "",
-                    "date": "",
-                    "grade": "",
+                    "degree": "Computer Networking and Information Technology master's degree",
+                    "college_name": "Saad Dahleb Blida",
+                    "college_url": "https://www.google.com/search?sxsrf=ALeKk00xweA2HA7gq01KXlOVrnmGUrwn8g:1593126467752&q=saad+dahlab+university&npsic=0&rflfq=1&rlha=0&rllag=36504139,2876504,90&tbm=lcl&ved=2ahUKEwj35MTJip7qAhUNLBoKHcGDDa8QtgN6BAgLEAQ&rldoc=1#rlfi=hd:;si:;mv:[[36.5047171,2.8773811],[36.5035619,2.8756269999999997]]",
+                    "date": "09/2018 – 09/2019",
+                    "grade": "GPA 3.5",
                     "projects": [
-                        ""
+                        `Contour Parallel Offset and laser pathing
+                        using the Algorithm for Pocketing in order to
+                        fill 2D Motifs`
                     ]
                 }
             ]
