@@ -1,7 +1,7 @@
 export const data = {
     "language":"eng",
     "profile": {
-        "profile_photo": "",
+        "profile_photo": "ahmedkhemici",
         "first_name": "Ahmed",
         "last_name": "Khemici",
         "profession": "Software Engineer",
@@ -37,8 +37,8 @@ export const data = {
             ],
             "skills": [
                 {
-                    "name": "Programming Languages :",
-                    "tools": "Python ,javascript, java"
+                    "name": "Programming Languages:",
+                    "tools": "Python , javascript, java"
                 },
                 {
                     "name": "Frameworks :",
@@ -49,10 +49,13 @@ export const data = {
                     "tools": "PostgreSQL, MySQL, SQL server, MongoDB, Redis"
                 },
                 {
+                    "name": "Cloud Tools:",
+                    "tools": `EC2, Target Groups, CloudWatch, cloudfront
+                    , S3, LoadBalancers, RDS, ECR, ASG`
+                },
+                {
                     "name": "DevOps Tools:",
-                    "tools": `AWS services (EC2, Target Groups, CloudWatch, cloudfront
-                    , S3, LoadBalancers, RDS, ECR, ASG), AZURE(VMs, ApplicationGateways, DB, RedisDB),
-                    Docker, Ansible, GitLab_CI_CD, GitHunActions.`
+                    "tools": `Docker, Ansible, GitLab_CI_CD, GitHunActions.`
                 },
                 {
                     "name": "Others :",
