@@ -1,5 +1,4 @@
 .Description{
-    min-width: 15.55cm;
     height: 5cm;
     padding-top: 15px;
     box-sizing: border-box;
@@ -18,7 +17,7 @@
 .description__fullname{
     font-size: 33px;
     font-weight: 400;
-    display: block;
+
 }
 
 .description__profession{

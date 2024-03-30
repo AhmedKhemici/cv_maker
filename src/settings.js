@@ -6,7 +6,8 @@ export const settings = {
             "experiences":"WORK EXPERIENCE",
             "certificates":"CERTIFICATES",
             "personal_projects":"PERSONAL PROJECTS",
-            "educations":"EDUCATIONS"
+            "educations":"EDUCATIONS",
+            "project":"Project"
         },
         "fr":{
             "skills": "COMPÉTENCES",
@@ -14,7 +15,8 @@ export const settings = {
             "experiences": "EXPÉRIENCE PROFESSIONNELLE",
             "certificates": "CERTIFICATS",
             "personal_projects": "PROJETS PERSONNELS",
-            "educations": "ÉDUCATIONS"
+            "educations": "ÉDUCATIONS",
+            "project":"Projet"
         },
         "esp":{
             "skills": "HABILIDADES",
@@ -22,7 +24,8 @@ export const settings = {
             "experiences": "EXPERIENCIA LABORAL",
             "certificates": "CERTIFICADOS",
             "personal_projects": "PROYECTOS PERSONALES",
-            "educations": "EDUCACIÓN"
+            "educations": "EDUCACIÓN",
+            "project":"Proyecto"
         },
         "ita":{
             "skills": "COMPETENZE",
@@ -30,7 +33,8 @@ export const settings = {
             "experiences": "ESPERIENZA LAVORATIVA",
             "certificates": "CERTIFICATI",
             "personal_projects": "PROGETTI PERSONALI",
-            "educations": "ISTRUZIONE"
+            "educations": "ISTRUZIONE",
+            "project":"Progetto"
         },
         "ger":{
             "skills": "FÄHIGKEITEN",
@@ -38,7 +42,8 @@ export const settings = {
             "experiences": "BERUFSERFAHRUNG",
             "certificates": "ZERTIFIKATE",
             "personal_projects": "PERSÖNLICHE PROJEKTE",
-            "educations": "BILDUNG"
+            "educations": "BILDUNG",
+            "project":"Projekt"
         },
         "rus":{
             "skills": "НАВЫКИ",
@@ -46,7 +51,8 @@ export const settings = {
             "experiences": "ОПЫТ РАБОТЫ",
             "certificates": "СЕРТИФИКАТЫ",
             "personal_projects": "ЛИЧНЫЕ ПРОЕКТЫ",
-            "educations": "ОБРАЗОВАНИЕ"
+            "educations": "ОБРАЗОВАНИЕ",
+            "project":"Проект"
         }
     }
 }

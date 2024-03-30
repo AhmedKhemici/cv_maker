@@ -5,13 +5,8 @@ export const data = {
         "first_name": "Ahmed",
         "last_name": "Khemici",
         "profession": "Software Engineer",
-        "description":`Experienced Backend Developer and passionate DevOps enthusiast with five years of dedicated service to a dynamic startup. Proficient in Python with the ability to adapt to 
-        various technologies and languages, including Node.js, React.js, AWS, Azure, and Ansible. 
-        Skilled at fostering innovation through successful DevOps practices, including 
-        implementing progressive updates that have significantly enhanced productivity. 
-        Demonstrated track record of contributing to the development process and stepping into 
-        quality assurance responsibilities when needed. Recognized collaborative team player 
-        known for problem-solving and a willingness to learn.`
+        "description":`
+        Experienced Backend Developer & DevOps enthusiast with 5 years in a dynamic startup. Proficient in Python, adaptable to various technologies like Node.js, React.js, AWS, Azure, & Ansible. Skilled in fostering innovation through effective DevOps practices, enhancing productivity. Recognized for collaborative problem-solving & willingness to learn.`
     },
     "pages":[{
         "side_content": {
@@ -43,10 +38,6 @@ export const data = {
             ],
             "skills": [
                 {
-                    "name": "Programming Languages:",
-                    "tools": "Python , javascript, java"
-                },
-                {
                     "name": "Frameworks :",
                     "tools": "Flask, NodeJs, ReactJs, React Native"
                 },
@@ -61,7 +52,7 @@ export const data = {
                 },
                 {
                     "name": "DevOps Tools:",
-                    "tools": `Docker, Ansible, GitLab_CI_CD, GitHunActions.`
+                    "tools": `Docker, Ansible, GitLab_CI_CD, GitHubActions.`
                 },
                 {
                     "name": "Others :",
@@ -91,10 +82,10 @@ export const data = {
                     "location": "San Jose, California",
                     "date": "08/2020 - 04/2023",
                     "points": [
-                      "Worked with a rapidly growing startup and a large team with diverse cultures",
-                      "Worked on Backend using Python Flask, started the project from scratch, implemented API calls to third-party services such as Facebook, Twitter, Twilio, and many others",
-                      "Worked on DevOps using Docker and GitLab CI/CD with Ansible, hosting the project on AWS and Azure",
-                      "Worked on automated QA conducting backend API calls to test route functionality, also utilizing Selenium and Appium to simulate user inputs on web and Android/iOS applications"
+                        "While serving as the acting Backend lead in the absence of senior candidates, I played a pivotal role in guiding our team through challenges and ensuring project success.",
+                        "Taking charge of Backend development, I led the initiation of our project using Python Flask, implementing crucial API integrations with major platforms such as Facebook, Twitter, and Twilio to maintain seamless functionality.",
+                        "During this period, I also oversaw our DevOps practices, implementing Docker and GitLab CI/CD with Ansible to manage project hosting across AWS and Azure environments effectively.",
+                        "To maintain our project's quality standards, I automated backend API testing procedures and employed Selenium and Appium to simulate user interactions across diverse platforms, ensuring a robust user experience."
                     ]
                 },
                 {
@@ -103,17 +94,13 @@ export const data = {
                     "location": "Chréa, Algeria",
                     "date": "10/2019 - 08/2020",
                     "points": [
-                      "Manual testing on newly manufactured Oppo phones",
-                      "Created a VBS application in Excel to help strengthen team reporting skills",
-                      "Worked on automated QA conducting backend API calls to test route functionality, also utilizing Selenium and Appium to simulate user inputs on web and Android/iOS applications"
-                      ]
+                        "Performed manual testing on newly manufactured Oppo phones to ensure quality.",
+                        "Developed a VBS application in Excel aimed at improving team reporting skills.",
+                        "Automated QA processes by conducting backend API calls and using Selenium and Appium to simulate user inputs on web and mobile applications."
+                    ]
                   }
             ],
             "certificates": [
-                {
-                    "name": "Certified Web Development",
-                    "date": "04/2018 – 05/2018"
-                },
                 {
                     "name": "Certified Web Development",
                     "date": "04/2018 – 05/2018"

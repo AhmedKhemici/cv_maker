@@ -26,7 +26,7 @@ const Educations = (props) => {
       </div>
       <div className="educations__educationProjects">
           <span>
-            Project
+            {props.project}
           </span>
           <ul>
           {
