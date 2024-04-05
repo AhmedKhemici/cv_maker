@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMobileScreen, faEnvelope, faLocationDot} from '@fortawesome/free-solid-svg-icons'
+import { faMobileScreen, faEnvelope, faLocationDot, faGlobe} from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faWhatsapp} from '@fortawesome/free-brands-svg-icons'
 import './Medias.css'
 
@@ -9,7 +9,8 @@ function Medias(props) {
     "phone": faMobileScreen,
     "whatsapp": faWhatsapp,
     "location": faLocationDot,
-    "linkedin": faLinkedin
+    "linkedin": faLinkedin,
+    "Portfolio": faGlobe
   }
   const template = <>
     {props.medias.map((media)=>{

@@ -18,7 +18,8 @@ export const data = {
                 },
                 {
                     "type": "phone",
-                    "value": "+213665824855"
+                    "value": "+213665824855",
+                    "url": "tel:+213665824855"
                 },
                 {
                     "type": "whatsapp",
@@ -32,8 +33,13 @@ export const data = {
                 },
                 {
                     "type": "linkedin",
-                    "value": "linkedin.com/in/ahmed-khemici-4523aa156",
+                    "value": "ahmed-khemici-4523aa156",
                     "url": "https://linkedin.com/in/ahmed-khemici-4523aa156"
+                },
+                {
+                    "type": "Portfolio",
+                    "value": "ahmed-khemici.site",
+                    "url": "https://ahmed-khemici.site"
                 }
             ],
             "skills": [
