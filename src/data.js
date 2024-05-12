@@ -36,16 +36,16 @@ export const data = {
                     "value": "ahmed-khemici-4523aa156",
                     "url": "https://linkedin.com/in/ahmed-khemici-4523aa156"
                 },
-                {
-                    "type": "Portfolio",
-                    "value": "ahmed-khemici.site",
-                    "url": "https://ahmed-khemici.site"
-                }
+                // {
+                //     "type": "Portfolio",
+                //     "value": "ahmed-khemici.site",
+                //     "url": "https://ahmed-khemici.site"
+                // }
             ],
             "skills": [
                 {
                     "name": "Frameworks :",
-                    "tools": "Flask, NodeJs, ReactJs, React Native"
+                    "tools": "Flask, NodeJs, NestJs, ReactJs"
                 },
                 {
                     "name": "DataBases :",
@@ -84,6 +84,29 @@ export const data = {
             "experiences": [
                 {
                     "job_title": "Backend Engineer",
+                    "company_name": "HelpMeGrow",
+                    "location": "Remote",
+                    "date": "04/2024 - Present",
+                    "points": [
+                        "Created The Database Diagrams of the Project",
+                        "Worked on the backend using NestJs, Express, GitHub",
+                        "Worked Integration facebook, TikTok, instagram",
+                        "Hosted the backend project on Cloud Oracle, with CI/CD pipeline using githubActions",
+                    ]
+                },
+                {
+                    "job_title": "Free Lance Backend Engineer",
+                    "company_name": "Rihla",
+                    "location": "Remote",
+                    "date": "09/2023 - 02/2024",
+                    "points": [
+                        "Created The Database Diagrams of the Project",
+                        "Worked on the backend using NodeJs, Express, GitHub",
+                        "Implemented Socket connection as well as firebase push notification"
+                    ]
+                },
+                {
+                    "job_title": "Backend Engineer",
                     "company_name": "Yobi",
                     "location": "San Jose, California",
                     "date": "08/2020 - 04/2023",
@@ -94,17 +117,17 @@ export const data = {
                         "To maintain our project's quality standards, I automated backend API testing procedures and employed Selenium and Appium to simulate user interactions across diverse platforms, ensuring a robust user experience."
                     ]
                 },
-                {
-                    "job_title": "QA Tester",
-                    "company_name": "Oppo",
-                    "location": "Chréa, Algeria",
-                    "date": "10/2019 - 08/2020",
-                    "points": [
-                        "Performed manual testing on newly manufactured Oppo phones to ensure quality.",
-                        "Developed a VBS application in Excel aimed at improving team reporting skills.",
-                        "Automated QA processes by conducting backend API calls and using Selenium and Appium to simulate user inputs on web and mobile applications."
-                    ]
-                  }
+                // {
+                //     "job_title": "QA Tester",
+                //     "company_name": "Oppo",
+                //     "location": "Chréa, Algeria",
+                //     "date": "10/2019 - 08/2020",
+                //     "points": [
+                //         "Performed manual testing on newly manufactured Oppo phones to ensure quality.",
+                //         "Developed a VBS application in Excel aimed at improving team reporting skills.",
+                //         "Automated QA processes by conducting backend API calls and using Selenium and Appium to simulate user inputs on mobile applications."
+                //     ]
+                //   }
             ],
             "certificates": [
                 {
@@ -112,14 +135,14 @@ export const data = {
                     "date": "04/2018 – 05/2018"
                 }
             ],
-            "personal_projects": [
-                {
-                    "name": "Restaurants Desktop application",
-                    "points": [
-                        "an easy application that helps restaurant owners manage their business made with java"
-                    ]
-                },
-            ],
+            // "personal_projects": [
+            //     {
+            //         "name": "Restaurants Desktop application",
+            //         "points": [
+            //             "an easy application that helps restaurant owners manage their business made with java swing"
+            //         ]
+            //     },
+            // ],
             "educations": [
                 {
                     "degree": "Computer Networking and Information Technology master's degree",
